@@ -1,0 +1,40 @@
+# ── Kaggle credentials ─────────────────────────────────────────────────────────
+.kaggle/
+kaggle.json
+
+# ── Data (download locally, never push) ───────────────────────────────────────
+data/
+*.csv
+*.parquet
+*.xlsx
+
+# ── Trained models (large binary files) ───────────────────────────────────────
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# ── Pipeline outputs from ehr-fhir-pipeline ───────────────────────────────────
+cancer_risk_metadata.json
+cancer_risk_sample_data.csv
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.env
+.venv/
+venv/
+env/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
